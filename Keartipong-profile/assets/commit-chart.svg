@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="commit activity">
+<defs>
+  <linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#f472b6"/><stop offset=".55" stop-color="#fb923c"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f472b6" stop-opacity=".38"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1a"/><stop offset="1" stop-color="#141030"/></linearGradient>
+  <clipPath id="rev"><rect class="reveal" x="0" y="0" width="1000" height="300"/></clipPath>
+</defs>
+<style>
+  .lb{font:500 12px 'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8}
+  .tt{font:700 15px 'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#e5e7eb}
+  .sv{font:800 34px 'Inter','Segoe UI',Helvetica,Arial,sans-serif;fill:#f8fafc}
+  .sl{font:500 12px 'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8;text-transform:uppercase;letter-spacing:1px}
+  .reveal{transform-box:fill-box;transform-origin:0 50%;animation:rv 2.2s .2s cubic-bezier(.4,0,.2,1) both}
+  @keyframes rv{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .pk{animation:pp 2.4s ease-in-out infinite} @keyframes pp{50%{r:9;opacity:.5}}
+  .fi{animation:fi 1s 2.2s both} @keyframes fi{from{opacity:0}to{opacity:1}}
+</style>
+<rect width="1000" height="300" rx="18" fill="url(#bg)"/>
+<rect x=".75" y=".75" width="998.5" height="298.5" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="1.5"/>
+<text class="tt" x="56" y="50">// commit activity</text>
+<text class="sv" x="500" y="190" text-anchor="middle">waiting for first run</text>
+<text class="lb" x="500" y="228" text-anchor="middle">Actions &#8594; "Update commit chart" &#8594; Run workflow</text>
+</svg>
