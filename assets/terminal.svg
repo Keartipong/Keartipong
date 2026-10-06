@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="395" viewBox="0 0 900 395" role="img" aria-label="about me terminal">
+<defs>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f472b6"/><stop offset=".5" stop-color="#fb923c"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<style>
+  text{font:500 15px 'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace}
+  .cv{transform-box:fill-box;transform-origin:100% 50%;animation-name:rev;animation-fill-mode:forwards}
+  @keyframes rev{to{transform:scaleX(0)}}
+  .cur{opacity:0;animation:bl 1s steps(2) infinite} @keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .ti{font:500 13px 'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#6b7280}
+</style>
+<rect x="1" y="1" width="898" height="393" rx="14" fill="#0f1424" stroke="#ffffff" stroke-opacity=".12" stroke-width="1.5"/>
+<path d="M1 15a14 14 0 0 1 14-14h870a14 14 0 0 1 14 14v26H1z" fill="#161c30"/>
+<rect x="1" y="40" width="898" height="2" fill="url(#bar)" opacity=".85"/>
+<circle cx="28" cy="21" r="6" fill="#ff5f57"/><circle cx="50" cy="21" r="6" fill="#febc2e"/><circle cx="72" cy="21" r="6" fill="#28c840"/>
+<text class="ti" x="450" y="26" text-anchor="middle">keartipong@thailand: ~</text>
+<text x="40" y="84" xml:space="preserve"><tspan fill="#a78bfa">~ $ </tspan><tspan fill="#e5e7eb">whoami</tspan></text>
+<text x="40" y="111" xml:space="preserve"><tspan fill="#fb923c">keartipong</tspan><tspan fill="#9ca3af"> :: software developer</tspan></text>
+<text x="40" y="138" xml:space="preserve"><tspan fill="#a78bfa">~ $ </tspan><tspan fill="#e5e7eb">cat about.yml</tspan></text>
+<text x="40" y="165" xml:space="preserve"><tspan fill="#f472b6">name:      </tspan><tspan fill="#f3f4f6">Keartipong Pakobcam</tspan></text>
+<text x="40" y="192" xml:space="preserve"><tspan fill="#f472b6">location:  </tspan><tspan fill="#f3f4f6">Thailand</tspan></text>
+<text x="40" y="219" xml:space="preserve"><tspan fill="#f472b6">stack:     </tspan><tspan fill="#f3f4f6">full-stack / cloud / web</tspan></text>
+<text x="40" y="246" xml:space="preserve"><tspan fill="#f472b6">learning:  </tspan><tspan fill="#6ee7b7">[DevOps, Cloud Architecture, Docker, AI]</tspan></text>
+<text x="40" y="273" xml:space="preserve"><tspan fill="#f472b6">open_to:   </tspan><tspan fill="#f3f4f6">interesting full-stack &amp; web projects</tspan></text>
+<text x="40" y="300" xml:space="preserve"><tspan fill="#f472b6">off_duty:  </tspan><tspan fill="#f3f4f6">badminton + football, after dark</tspan></text>
+<text x="40" y="327" xml:space="preserve"><tspan fill="#f472b6">contact:   </tspan><tspan fill="#fb923c">aogbank2@gmail.com</tspan></text>
+<text x="40" y="354" xml:space="preserve"><tspan fill="#a78bfa">~ $ </tspan><tspan fill="#e5e7eb"></tspan></text>
+<rect class="cur" x="77.0" y="340" width="9" height="18" fill="#fb923c" style="animation-delay:9.0s"/>
+<rect class="cv" x="40" y="66" width="104.0" height="26" fill="#0f1424" style="animation-duration:0.90s;animation-delay:0.60s;animation-timing-function:steps(10)"/>
+<rect class="cv" x="40" y="93" width="302.0" height="26" fill="#0f1424" style="animation-duration:0.63s;animation-delay:1.75s;animation-timing-function:steps(32)"/>
+<rect class="cv" x="40" y="120" width="167.0" height="26" fill="#0f1424" style="animation-duration:1.15s;animation-delay:2.43s;animation-timing-function:steps(17)"/>
+<rect class="cv" x="40" y="147" width="284.0" height="26" fill="#0f1424" style="animation-duration:0.61s;animation-delay:3.83s;animation-timing-function:steps(30)"/>
+<rect class="cv" x="40" y="174" width="185.0" height="26" fill="#0f1424" style="animation-duration:0.48s;animation-delay:4.49s;animation-timing-function:steps(19)"/>
+<rect class="cv" x="40" y="201" width="329.0" height="26" fill="#0f1424" style="animation-duration:0.67s;animation-delay:5.02s;animation-timing-function:steps(35)"/>
+<rect class="cv" x="40" y="228" width="473.0" height="26" fill="#0f1424" style="animation-duration:0.86s;animation-delay:5.74s;animation-timing-function:steps(51)"/>
+<rect class="cv" x="40" y="255" width="446.0" height="26" fill="#0f1424" style="animation-duration:0.83s;animation-delay:6.65s;animation-timing-function:steps(48)"/>
+<rect class="cv" x="40" y="282" width="401.0" height="26" fill="#0f1424" style="animation-duration:0.77s;animation-delay:7.52s;animation-timing-function:steps(43)"/>
+<rect class="cv" x="40" y="309" width="275.0" height="26" fill="#0f1424" style="animation-duration:0.60s;animation-delay:8.34s;animation-timing-function:steps(29)"/>
+</svg>
